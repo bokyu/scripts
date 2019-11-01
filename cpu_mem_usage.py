@@ -141,7 +141,7 @@ if __name__ == '__main__':
     mem_usage = get_memory_usage()
     
     with open('/tmp/cpu_memory.prom', 'w') as promfile:
-        avg_usage = str(round(avg_usage * 24,5))
+        avg_usage = str(round(avg_usage, 5))
         mem_usage = str(mem_usage)
         save_data = "container_cpu_usage " + avg_usage + "\ncontainer_memory_usage " + mem_usage + "\n"
         promfile.write(save_data)
