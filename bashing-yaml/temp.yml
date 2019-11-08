@@ -1,0 +1,8 @@
+cat << EOF > final.yml
+----
+# ${sample}
+nats:
+  password: "${nats_password}"
+  username: '${nats_username}'
+  machines: ${nats_machines}
+EOF

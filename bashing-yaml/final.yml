@@ -1,0 +1,6 @@
+----
+# Hello Yaml!
+nats:
+  password: "password"
+  username: 'nats'
+  machines: 10.2.3.4

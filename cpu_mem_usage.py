@@ -20,10 +20,6 @@ def get_memory_usage():
             continue
     return total_mem_usage
 
-
-if __name__ == '__main__':
-    mem_usage = get_memory_usage()
-
 ## uptime                = uptime of the system
 ## user_stime            = CPU time spent in user code
 ## kernel_stime          = CPU time spent in kernel code
